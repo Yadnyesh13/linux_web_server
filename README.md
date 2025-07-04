@@ -1,7 +1,8 @@
 # linux_web_server
 
- '''// amazon linux/redhat'''  
+**amazon linux/redhat**
   
+ ""
  sudo yum install httpd -y  
  sudo systemctl start httpd  
  sudo systemctl enable httpd 
@@ -9,6 +10,9 @@
  sudo chmod 700 /var/www/html  
  sudo touch index.html 
  sudo nano index.html 
+ 
+ ""
+ 
   
  <h1> webserver </h1>
  / ec2-public-ip:80 
