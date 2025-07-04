@@ -15,13 +15,13 @@
 
  // ubuntu  
   
- sudo apt install apache2 
- sudo systemctl start apache2 
- sudo systemctl enable apache2 
- cd /var/www/html  
- sudo chmod 700 /var/www/html  
- sudo touch index.html 
- sudo nano index.html 
+ sudo apt install apache2 .
+ sudo systemctl start apache2 .
+ sudo systemctl enable apache2 .
+ cd /var/www/html  .
+ sudo chmod 700 /var/www/html . 
+ sudo touch index.html .
+ sudo nano index.html .
   
  <h1> webserver </h1> 
   
