@@ -1,32 +1,30 @@
-# linux_web_server
+# 🌐 Linux Web Server Setup
 
-**amazon linux/redhat**
-  
- ""
- sudo yum install httpd -y  
- sudo systemctl start httpd  
- sudo systemctl enable httpd 
- cd /var/www/html  
- sudo chmod 700 /var/www/html  
- sudo touch index.html 
- sudo nano index.html 
- 
- ""
- 
-  
- <h1> webserver </h1>
- / ec2-public-ip:80 
+This guide helps you set up an Apache web server on **Amazon Linux / RedHat** and **Ubuntu**.
 
- // ubuntu  
-  
- sudo apt install apache2
- sudo systemctl start apache2 
- sudo systemctl enable apache2 
- cd /var/www/html  
- sudo chmod 700 /var/www/html 
- sudo touch index.html 
- sudo nano index.html
-  
- <h1> webserver </h1> 
-  
- // www.localhost:80 
+---
+
+## 🟥 Amazon Linux / RedHat
+
+### 🔧 Install and Start Apache
+
+```bash
+sudo yum install httpd -y  
+sudo systemctl start httpd  
+sudo systemctl enable httpd 
+cd /var/www/html  
+sudo chmod 700 /var/www/html  
+sudo touch index.html 
+sudo nano index.html
+<h1> webserver </h1>
+
+## 🟥 Ubuntu
+
+sudo apt install apache2  
+sudo systemctl start apache2  
+sudo systemctl enable apache2  
+cd /var/www/html  
+sudo chmod 700 /var/www/html  
+sudo touch index.html  
+sudo nano index.html
+<h1> webserver </h1>
